@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-app.use(cors());
-app.use(express.json());
+app.use(cors());//very very important
+app.use(express.json());//very very important
 
 const port = process.env.PORT || 5000;
 
